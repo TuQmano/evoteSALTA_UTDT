@@ -2,13 +2,16 @@
 Data y código - paper Maestría UTDT
 
 #Scripts. 
-1º Data Managment (a partir de dbase en archivo .csv)
-2º Modelos (con un stop en punto 3º para Input Totales)
-3ºInput totales (y de vuelta al 2º)
+1º Data Managment (a partir de dbase en archivo .csv)https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/Script%20R%20-%20Data%20Managment
+
+2º Modelos (con un stop en punto 3º para Input Totales) https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/Modelos%20en%20R
+
+3ºInput totales (y de vuelta al 2º) https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/Input%20TOTALES
 
 #dBase
 .csv con resultados electorales de 2007 y 2011 para la totalidad de los circuitos de la provincia de Salta. 
-Observaciones (cantidad de votos) desagregadas por categoría (GOBERNADOR, LEGISLADOR -Diputado & Senador), partido político (LISTA) y CIRCUITO electoral (la base incluye mesas, pero estas varían entre elecciones). 
+Observaciones (cantidad de votos) desagregadas por categoría (GOBERNADOR, LEGISLADOR -Diputado & Senador), partido político (LISTA) y CIRCUITO electoral (la base incluye mesas, pero estas varían entre elecciones).
+https://raw.githubusercontent.com/TuQmano/evoteSALTA_UTDT/master/11SEPT_Salta_Completo_2007_2011.csv
 
 #VARIABLES (y transformaciones - data managment- a partir de scripts)
 1) Variable "Year"(año de elección). Recodificada "0" (si se trata de elección 2007) y "1" (si se trata de elección 2011)
