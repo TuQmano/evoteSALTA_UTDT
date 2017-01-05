@@ -1,5 +1,5 @@
 ############### SCRIPT DATA MANAGMENT PARA ELECCIONES 2007 Y 2011 #################
-SALTA<- read.csv("~/Dropbox/TESIS/Codigo y data FINAL/Salta_Completo_2007_2011.csv")
+SALTA<- read.csv("~/evoteSALTA_UTDT/11SEPT_Salta_Completo_2007_2011.csv")
 View(SALTA)
 SALTA$X=NULL
 
@@ -224,7 +224,7 @@ colnames(SALTA) <- c("Mesa","VE", "Year", "Circuito", "DIPUTADO", "GOBERNADOR", 
 
 #GRABAR BASE DE DATOS TOTAL 2007 y 2011 RECODED
 library(foreign)
-write.csv (SALTA, "~/Dropbox/TESIS/Codigo y data FINAL/SaltaWideRecoded.csv")
+write.csv (SALTA, "~/Dropbox/TESIS/SaltaWideRecoded.csv")
 
 
 #CONTINUAR CON SCRIPT SIGUIENTE
@@ -460,8 +460,7 @@ write.csv (TotalLEG, "~/Dropbox/Tesis/TotalLegCircuito.csv")
 #### EXPORTAR dBase transformada WIDE y RECODED
 library(foreign)
 setwd("~/Dropbox/Tesis")
-write.csv (SaltaGobLegis, "~/Dropbox/TESIS/Codigo y data FINAL/SaltaWideRecoded.csv")
-
+write.csv (SaltaGobLegis, "~/Dropbox/TESIS/SaltaWideRecoded.csv")
 
 #DATA FRAME PRINCIPAL  "SaltaGobLegis"  <- package "gdata", funcion Keep
 #Sin la condicion "sure" va a imprimir cuales son las variables que se eliminan 
