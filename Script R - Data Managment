@@ -475,3 +475,5 @@ keep(SaltaGobLegis, sure = TRUE)
 
 
 file.edit("~/Dropbox/TESIS/Codigo y data FINAL/Script Final Tesis.R")
+
+rename ------ evoteSALTA_UTDT/Modelos en R
