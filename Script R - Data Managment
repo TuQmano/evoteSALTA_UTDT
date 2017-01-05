@@ -1,5 +1,5 @@
 ############### SCRIPT DATA MANAGMENT PARA ELECCIONES 2007 Y 2011 #################
-SALTA<- read.csv("~/Dropbox/TESIS/Codigo y data FINAL/11SEPT_Salta_Completo_2007_2011.csv")
+SALTA<- read.csv("~/Dropbox/TESIS/Codigo y data FINAL/Salta_Completo_2007_2011.csv")
 View(SALTA)
 SALTA$X=NULL
 
