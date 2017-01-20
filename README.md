@@ -20,3 +20,9 @@ https://raw.githubusercontent.com/TuQmano/evoteSALTA_UTDT/master/11SEPT_Salta_Co
 4) Variable "Listas". Recodificada en script dataMangament a partir de información de alianzas y adhesiones provistas por las autoiradades electorales, asignandole un número a cada Lista_Año. Se tomó el nombre de la lista que presentó candidato a GOBERNADOR, se le asigó un número y se computó el mismo número a todas las listas legislativas (Senador y Diputado provincial) que adhirieron a ese candidato a Gobernador. 
 5) Variable "Cargo". La base de datos original incluye resultados para las candidaturas a GOBERNADOR, DIPUTADO y SENADOR. En el script dataManagment transofrmamos esta variable asimilando los resultados para cargos legislativos (DIPUTADO & SENADOR) como equivalentes. 
 6) Variable "Municpio". Variable que sirve para identificar rapidamente distritos en los que se asigó tratamiento y control en algunos de los modelos. Recodificada con un número por orden alfabético. 
+
+#CARTOGRAFIA
+Google Fusion Tables (SALTA - Municipios)
+https://www.google.com/fusiontables/DataSource?docid=1mSQ-EUh3_PK_C3C448TGmBpNbMGtnfAPlRqsTBwy
+Google Maps (Escuelas Treatment & Control) - Salta CAPITAL
+https://www.google.com/maps/d/edit?mid=119aqN9xB6kIGgNmr79qqz5JvuOo&ll=-24.780574048772323%2C-65.45555558055639&z=11
