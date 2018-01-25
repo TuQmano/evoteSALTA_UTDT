@@ -23,17 +23,17 @@ Replication data for Ruiz Nicolini, J. P. (2017). [El impacto de enchufar los vo
 
 Transformación de variables en `data_managment.R`
 
-(1) Variable *"Year"*(año de elección): Recodificada "0" (si se trata de elección 2007) y "1" (si se trata de elección 2011).
+**(1)** Variable *"Year"*(año de elección): Recodificada "0" (si se trata de elección 2007) y "1" (si se trata de elección 2011).
 
-(2) Variable *"VE"*: asignación de "tratamiento" - circuitos que votaron con Voto Electrónico (VE) en 2011. Toma valor "O" si corresponde a circuitos que mantuvieron el sistema tradicional de boletas partidarias y sobres ("control") y "1"si en 2011 votaron con el nuevo sistema electrónico de votación ("tratamiento"). 
+**(2)** Variable *"VE"*: asignación de "tratamiento" - circuitos que votaron con Voto Electrónico (VE) en 2011. Toma valor "O" si corresponde a circuitos que mantuvieron el sistema tradicional de boletas partidarias y sobres ("control") y "1"si en 2011 votaron con el nuevo sistema electrónico de votación ("tratamiento"). 
 
-(3) Variable *"Circuito"*: Código alfanumérico dado por autoridades electorales. A diferencia de la numeración de las mesas y los centros de votación, estos son equivalente entre elecciones (con algunas pequeñas diferencias, anotadas en el script `data_managment.R`).
+**(3)** Variable *"Circuito"*: Código alfanumérico dado por autoridades electorales. A diferencia de la numeración de las mesas y los centros de votación, estos son equivalente entre elecciones (con algunas pequeñas diferencias, anotadas en el script `data_managment.R`).
 
-(4) Variable *"Listas"*: Recodificada en script `data_managment.R` a partir de información de alianzas y adhesiones provistas por las autoiradades electorales, asignandole un número a cada *Lista_Año*. Se tomó el nombre de la lista que presentó candidato a GOBERNADOR; se le asigó luego un número y se computó el mismo número a todas las listas legislativas (Senador y Diputado provincial) que adhirieron a ese candidato a Gobernador. 
+**(4)** Variable *"Listas"*: Recodificada en script `data_managment.R` a partir de información de alianzas y adhesiones provistas por las autoiradades electorales, asignandole un número a cada *Lista_Año*. Se tomó el nombre de la lista que presentó candidato a GOBERNADOR; se le asigó luego un número y se computó el mismo número a todas las listas legislativas (Senador y Diputado provincial) que adhirieron a ese candidato a Gobernador. 
 
-(5) Variable *"Cargo"*: la base de datos original incluye resultados para las candidaturas a GOBERNADOR, DIPUTADO y SENADOR. En el script `data_managment.R` transofrmamos esta variable asimilando los resultados para cargos legislativos (DIPUTADO & SENADOR) como equivalentes. 
+**(5)** Variable *"Cargo"*: la base de datos original incluye resultados para las candidaturas a GOBERNADOR, DIPUTADO y SENADOR. En el script `data_managment.R` transofrmamos esta variable asimilando los resultados para cargos legislativos (DIPUTADO & SENADOR) como equivalentes. 
 
-(6) Variable *"Municpio"*: sirve para identificar rapidamente distritos en los que se asigó *tratamiento y control* en algunos de los modelos. Recodificada con un número por orden alfabético. 
+**(6)** Variable *"Municpio"*: sirve para identificar rapidamente distritos en los que se asigó *tratamiento y control* en algunos de los modelos. Recodificada con un número por orden alfabético. 
 
 # CARTOGRAFIA
 
