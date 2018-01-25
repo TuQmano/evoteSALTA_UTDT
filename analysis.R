@@ -1,6 +1,6 @@
 ###### SCRIPT FINAL TESIS########### SPLIT VOTE
 ###### Importar dBase####
-Salta<- read.csv("~/Dropbox/TESIS/Codigo y data FINAL/SaltaWideRecoded.csv")
+Salta<- read.csv("~/Dropbox/TESIS/SaltaWideRecoded.csv")  #### ESTE ARCHIVO SE TIENE QUE HABER CREADRO CON EL SCRIPT data_managment.R
 Salta$X=NULL
 
 ###CONSTRUCCION DE LA VARIABLE DEPENDIENTE#####
