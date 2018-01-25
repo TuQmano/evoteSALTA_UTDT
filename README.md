@@ -33,7 +33,7 @@ Transformación de variables en `data_managment.R`
 
 **(4)** Variable *"Listas"*: Recodificada en script `data_managment.R` a partir de información de alianzas y adhesiones provistas por las autoiradades electorales, asignandole un número a cada *Lista_Año*. Se tomó el nombre de la lista que presentó candidato a GOBERNADOR; se le asigó luego un número y se computó el mismo número a todas las listas legislativas (Senador y Diputado provincial) que adhirieron a ese candidato a Gobernador. 
 
-**(5)** Variable *"Cargo"*: la base de datos original incluye resultados para las candidaturas a GOBERNADOR, DIPUTADO y SENADOR. En el script `data_managment.R` transofrmamos esta variable asimilando los resultados para cargos legislativos (DIPUTADO & SENADOR) como equivalentes. 
+**(5)** Variable *"Cargo"*: la base de datos original incluye resultados para las candidaturas a GOBERNADOR, DIPUTADO y SENADOR. En el script `data_managment.R` transofrmamos esta variable asimilando los resultados para cargos legislativos (DIPUTADO & SENADOR) como equivalentes, y las agrupamos como LEGISLADOR.  
 
 **(6)** Variable *"Municpio"*: sirve para identificar rapidamente distritos en los que se asigó *tratamiento y control* en algunos de los modelos. Recodificada con un número por orden alfabético. 
 
