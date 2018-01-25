@@ -1,6 +1,6 @@
 
 ############### SCRIPT DATA MANAGMENT PARA ELECCIONES 2007 Y 2011 #################
-SALTA<- read.csv("~/evoteSALTA_UTDT/11SEPT_Salta_Completo_2007_2011.csv")
+SALTA<- read.csv("https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/data.csv")
 View(SALTA)
 SALTA$X=NULL
 
@@ -472,9 +472,9 @@ keep(SaltaGobLegis, sure = TRUE)
 
 
 
-############# ACA STOP PARA ARMAR VD E IMPUTAR TOTAL DESDE SCRIPT SIGUIENTE########
+############# STOP PARA ARMAR VD E IMPUTAR TOTAL DESDE SCRIPT analysis.R ########
 
 
-file.edit("~/Dropbox/TESIS/Codigo y data FINAL/Script Final Tesis.R")
+file.edit("https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/analysis.R")
 
-rename ------ evoteSALTA_UTDT/Modelos en R
+
