@@ -1,17 +1,21 @@
-# evoteSALTA_UTDT
-Data y código - paper Maestría UTDT
+Replication data for Ruiz Nicolini, J. P. (2017). ["El impacto de enchufar los votos. Evaluación del voto cruzado entrecategorías en las elecciones de la provincia de Salta"](https://www.researchgate.net/publication/317236729(DOI:10.13140/RG.2.2.24737.20326). *Tesis de Master*, Universidad TorcuatoDi Tella. 
 
-#Scripts. 
-1º Data Managment (a partir de dbase en archivo .csv)https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/Script%20R%20-%20Data%20Managment
 
-2º Modelos (con un stop en punto 3º para Input Totales) https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/Modelos%20en%20R
+# SCRIPTS *R*
+* `data_managment.R` [Código de R para limpiar y preparar la *base de datos*](https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/data_managment.r) 
 
-3ºInput totales (y de vuelta al 2º) https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/Input%20TOTALES
+*`analysis.R` [Código de R para el análisis de los datos](https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/analysis.r)
 
-#dBase
-.csv con resultados electorales de 2007 y 2011 para la totalidad de los circuitos de la provincia de Salta. 
-Observaciones (cantidad de votos) desagregadas por categoría (GOBERNADOR, LEGISLADOR -Diputado & Senador), partido político (LISTA) y CIRCUITO electoral (la base incluye mesas, pero estas varían entre elecciones).
-https://raw.githubusercontent.com/TuQmano/evoteSALTA_UTDT/master/11SEPT_Salta_Completo_2007_2011.csv
+*`data_managment_totals`[Cdigo auxiliar para imputación de totales - viene del script `analysis.r`](
+ https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/auxiliar_script.totals.r)
+
+
+
+# DATOS
+*`data.csv` [Resultados electorales de Salta de 2007 y 2011](https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/data.csv) para la totalidad de los circuitos de la provincia. Las observaciones (cantidad de votos) estás desagregadas por categoría (GOBERNADOR, LEGISLADOR -Diputado & Senador); partido político (LISTA) y CIRCUITO electoral (la base incluye mesas, pero estas varían entre elecciones).
+*`covariates`es una base de datos para *PRISMA*: software de Windows utilizado para hacer los gráficos de test de hipótesis (t). 
+
+# LIBRO DE CÓDIGOS Y ANOTACIONES
 
 #VARIABLES (y transformaciones - data managment- a partir de scripts)
 1) Variable "Year"(año de elección). Recodificada "0" (si se trata de elección 2007) y "1" (si se trata de elección 2011)
@@ -21,8 +25,7 @@ https://raw.githubusercontent.com/TuQmano/evoteSALTA_UTDT/master/11SEPT_Salta_Co
 5) Variable "Cargo". La base de datos original incluye resultados para las candidaturas a GOBERNADOR, DIPUTADO y SENADOR. En el script dataManagment transofrmamos esta variable asimilando los resultados para cargos legislativos (DIPUTADO & SENADOR) como equivalentes. 
 6) Variable "Municpio". Variable que sirve para identificar rapidamente distritos en los que se asigó tratamiento y control en algunos de los modelos. Recodificada con un número por orden alfabético. 
 
-#CARTOGRAFIA
-Google Fusion Tables (SALTA - Municipios)
-https://www.google.com/fusiontables/DataSource?docid=1mSQ-EUh3_PK_C3C448TGmBpNbMGtnfAPlRqsTBwy
-Google Maps (Escuelas Treatment & Control) - Salta CAPITAL
-https://www.google.com/maps/d/edit?mid=119aqN9xB6kIGgNmr79qqz5JvuOo&ll=-24.780574048772323%2C-65.45555558055639&z=11
+# CARTOGRAFIA
+* `muncipios` de Salta con [*Google Fusion Tables* (con la colaboración de [@andy_tow](www.twitter.com/andy_tow))](https://www.google.com/fusiontables/DataSource?docid=1mSQ-EUh3_PK_C3C448TGmBpNbMGtnfAPlRqsTBwy)
+
+*`Salta (Capital): Escuelas *Treatment & Control*` con  [Google Maps]( https://www.google.com/maps/d/edit?mid=119aqN9xB6kIGgNmr79qqz5JvuOo&ll=-24.780574048772323%2C-65.45555558055639&z=11)
