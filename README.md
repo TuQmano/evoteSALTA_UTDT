@@ -1,5 +1,6 @@
 Replication data for Ruiz Nicolini, J. P. (2017). [El impacto de enchufar los votos. Evaluación del voto cruzado entrecategorías en las elecciones de la provincia de Salta](https://www.researchgate.net/publication/317236729). *Tesis de Master*, Universidad TorcuatoDi Tella. 
 
+---
 
 # SCRIPTS *R*
 
@@ -20,7 +21,7 @@ Replication data for Ruiz Nicolini, J. P. (2017). [El impacto de enchufar los vo
 
 # LIBRO DE CÓDIGOS Y ANOTACIONES
 
-#Transformación de variables en `data_managment.R`
+Transformación de variables en `data_managment.R`
 
 (1) Variable *"Year"*(año de elección): Recodificada "0" (si se trata de elección 2007) y "1" (si se trata de elección 2011).
 
