@@ -1,8 +1,9 @@
-Replication data for Ruiz Nicolini, J. P. (2017). ["El impacto de enchufar los votos. Evaluación del voto cruzado entrecategorías en las elecciones de la provincia de Salta"](https://www.researchgate.net/publication/317236729(DOI:10.13140/RG.2.2.24737.20326). *Tesis de Master*, Universidad TorcuatoDi Tella. 
+Replication data for Ruiz Nicolini, J. P. (2017). [El impacto de enchufar los votos. Evaluación del voto cruzado entrecategorías en las elecciones de la provincia de Salta](https://www.researchgate.net/publication/317236729). *Tesis de Master*, Universidad TorcuatoDi Tella. 
 
 
 # SCRIPTS *R*
-* `data_managment.R` [Código de R para limpiar y preparar la *base de datos*](https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/data_managment.r) 
+
+*`data_managment.R` [Código de R para limpiar y preparar la *base de datos*](https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/data_managment.r) 
 
 *`analysis.R` [Código de R para el análisis de los datos](https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/analysis.r)
 
@@ -13,7 +14,8 @@ Replication data for Ruiz Nicolini, J. P. (2017). ["El impacto de enchufar los v
 
 # DATOS
 *`data.csv` [Resultados electorales de Salta de 2007 y 2011](https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/data.csv) para la totalidad de los circuitos de la provincia. Las observaciones (cantidad de votos) estás desagregadas por categoría (GOBERNADOR, LEGISLADOR -Diputado & Senador); partido político (LISTA) y CIRCUITO electoral (la base incluye mesas, pero estas varían entre elecciones).
-*`covariates`es una base de datos para *PRISMA*: software de Windows utilizado para hacer los gráficos de test de hipótesis (t). 
+
+*`covariates`es una [base de datos para *PRISMA*](https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/covariates.pzfx): software de Windows utilizado para hacer los gráficos de test de hipótesis (t). 
 
 # LIBRO DE CÓDIGOS Y ANOTACIONES
 
@@ -26,6 +28,6 @@ Replication data for Ruiz Nicolini, J. P. (2017). ["El impacto de enchufar los v
 6) Variable "Municpio". Variable que sirve para identificar rapidamente distritos en los que se asigó tratamiento y control en algunos de los modelos. Recodificada con un número por orden alfabético. 
 
 # CARTOGRAFIA
-* `muncipios` de Salta con [*Google Fusion Tables* (con la colaboración de [@andy_tow](www.twitter.com/andy_tow))](https://www.google.com/fusiontables/DataSource?docid=1mSQ-EUh3_PK_C3C448TGmBpNbMGtnfAPlRqsTBwy)
+* `muncipios` de Salta con [*Google Fusion Tables*](https://www.google.com/fusiontables/DataSource?docid=1mSQ-EUh3_PK_C3C448TGmBpNbMGtnfAPlRqsTBwy), con la colaboración de [@andy_tow](http://www.twitter.com/andy_tow))]
 
 *`Salta (Capital): Escuelas *Treatment & Control*` con  [Google Maps]( https://www.google.com/maps/d/edit?mid=119aqN9xB6kIGgNmr79qqz5JvuOo&ll=-24.780574048772323%2C-65.45555558055639&z=11)
