@@ -17,6 +17,8 @@ Replication data for Ruiz Nicolini, J. P. (2017). [El impacto de enchufar los vo
 
 *`data.csv` [Resultados electorales de Salta de 2007 y 2011](https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/data.csv) para la totalidad de los circuitos de la provincia. Las observaciones (cantidad de votos) están desagregadas por categoría (GOBERNADOR, LEGISLADOR -Diputado & Senador); partido político (LISTA) y CIRCUITO electoral (la base incluye mesas, pero estas varían entre elecciones).
 
+*`SaltaWideRecoded.csv` Es el archvio procesado y exportado desde el script `data_managment.R` con el que trabajamos en `analysis.R`
+
 *`covariates`es una [base de datos para *PRISMA*](https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/covariates.pzfx): software de Windows utilizado para hacer los gráficos de test de hipótesis (t). 
 
 # LIBRO DE CÓDIGOS Y ANOTACIONES
