@@ -1,3 +1,6 @@
+#ESTOS TOTALES SE CARGARON A PARTIR DE CÁLCULOS GENERADOS EN SRCIPT data_managment.R
+
+
 ###GOBERNADOR
 Salta$TotalGob[ Salta$Circuito == "100A" & Salta$Year ==0]<-2481
 Salta$TotalGob[ Salta$Circuito == "100A" & Salta$Year ==1]<-2594
@@ -1143,4 +1146,4 @@ Salta$TotalLeg[ Salta$Circuito == "8B" & Salta$Year ==1]<-109
 Salta$TotalLeg[ Salta$Circuito == "8C" & Salta$Year ==1]<-93
 
 #VOLVER A SCRIPT ANALYSIS TESIS
-file.edit("~/Dropbox/TESIS/Codigo y data FINAL/Script Final Tesis.R")
+file.edit("https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/analysis.R")
