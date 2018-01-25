@@ -1,6 +1,6 @@
 
 ############### SCRIPT DATA MANAGMENT PARA ELECCIONES 2007 Y 2011 #################
-SALTA<- read.csv("https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/data.csv")
+SALTA<- read.csv("https://raw.githubusercontent.com/TuQmano/evoteSALTA_UTDT/master/data.csv")
 View(SALTA)
 SALTA$X=NULL
 
