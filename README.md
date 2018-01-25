@@ -4,12 +4,12 @@ Replication data for Ruiz Nicolini, J. P. (2017). [El impacto de enchufar los vo
 
 # SCRIPTS *R*
 
-*`data_managment.R` [Código de R para limpiar y preparar la *base de datos*](https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/data_managment.r) 
+*`data_managment.R` [Código de R para limpiar y preparar la *base de datos*](https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/data_managment.R) 
 
-*`analysis.R` [Código de R para el análisis de los datos](https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/analysis.r)
+*`analysis.R` [Código de R para el análisis de los datos](https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/analysis.R)
 
-*`data_managment_totals`[Código auxiliar para imputación de totales - viene del script `analysis.r`](
- https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/auxiliar_script.totals.r)
+*`data_managment_totals`[Código auxiliar para imputación de totales - viene del script `analysis.R`](
+ https://github.com/TuQmano/evoteSALTA_UTDT/blob/master/auxiliar_script.totals.R)
 
 
 
